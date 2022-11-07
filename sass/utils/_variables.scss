@@ -1,0 +1,24 @@
+/* цвет заголовков #212121  */
+/* основной цвет #757575 */
+/* белый цвет фона #FFFFFF */
+/* акцент  #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* футер контакт rgba(255, 255, 255, 0.6) */
+/* цвет подвала #2F303A */
+/* цвет иконок #AFB1B8 */
+/* цвет границы блока */
+
+:root {
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-color-white: #ffffff;
+    --color-black: #000;
+    --primary-bg-color: #F5F5F5;
+    --second-bg-color: #F5F4FA;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --footer-order-color: #2F303A;
+    --icon-border-color: #AFB1B8;
+    --border-color: #EEEEEE;
+  }
