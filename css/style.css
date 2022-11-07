@@ -80,7 +80,7 @@ header {
   align-items: center;
 }
  
-.logo {
+.nav__logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -89,7 +89,7 @@ header {
   text-decoration: none;
 }
 
-.main-nav .logo {
+.main-nav .nav__logo {
   margin-right: 93px;
   margin-top: auto;
   margin-bottom: auto;
@@ -102,17 +102,17 @@ header {
 
 /* Menu Nav */
 
-.site-nav .item a {
+.site-nav .site-nav__item a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.site-nav .item + .item {
+.site-nav .site-nav__item + .site-nav__item {
   margin-left: 50px;
 }
 
-.site-nav .link {
+.site-nav .site-nav__link {
   position: relative;
   color: var(--title-text-color);
   font-weight: 500;
@@ -122,16 +122,16 @@ header {
   transition: color 250ms var(--timing-function);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .site-nav__link:hover,
+.site-nav .site-nav__link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav .site-nav__link.current {
   color: var(--accent-color);
 }
 
-.site-nav .item .current::after {
+.site-nav .site-nav__item .current::after {
   content: "";
   position: absolute;
   display: block;
@@ -145,7 +145,7 @@ header {
 
 /* contacts */
 
-.contacts-nav .contacts {
+.contacts-nav .contacts-nav__contacts {
   color: var(--primery-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -154,19 +154,19 @@ header {
   transition: color 250ms var(--timing-function);
 }
 
-.contacts-nav .contacts:hover,
-.contacts-nav .contacts:focus {
+.contacts-nav .contacts-nav__contacts:hover,
+.contacts-nav .contacts-nav__contacts:focus {
   color: var(--accent-color);
 }
 
-.contact-icon {
+.contacts-nav__contact-icon {
   fill: currentColor;
   margin-right: 10px;
   align-items: center;
   justify-content: center;
 }
 
-.contacts-nav .item + .item {
+.contacts-nav .contacts-nav__item + .contacts-nav__item {
   margin-left: 50px;
 }
 
@@ -174,7 +174,7 @@ header {
   margin-left: auto;
 }
 
-.contacts-nav .contacts {
+.contacts-nav .contacts-nav__contacts {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -604,7 +604,7 @@ header {
   padding-bottom: 60px;
 }
 
-.footer .logo {
+.footer .nav__logo {
   display: inline-block;
   margin-bottom: 20px;
   
