@@ -80,7 +80,8 @@ header {
   align-items: center;
 }
  
-.logo {
+.logo,
+.footer__logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -457,7 +458,7 @@ header {
 
 /* About US  */
 
-.section-title {
+.section__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -502,26 +503,26 @@ header {
 .team {
   background-color: var(--second-bg-color);
 }
-.team-list{
+.team__list{
   display: flex;
   justify-content: space-between;
 }
 
-.team-grup .team-list .item + .item {
+.team__item + .team__item {
   margin-left: 30px;
 }
 
-.team-list .item {
+.team__item {
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
     border-radius: 0px 0px 4px 4px;
 }
-.team-grup .description {
+.team__description {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--primary-color-white);
   border-radius: 0px 0px 4px 4px;
 }
-.team-list .title {
+.team__title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -531,7 +532,7 @@ header {
   margin-bottom: 10px;
 }
 
-.team-list p {
+.team__text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -539,16 +540,19 @@ header {
   margin-bottom: 16px;
 }
 
-.social-list {
+.team__social-list,
+.footer__social-list {
   display: flex;
   justify-content: center;
 }
 
-.social-item + .social-item {
+.team__social-item + .team__social-item,
+.footer__social-item + .footer__social-item {
   margin-left: 10px;
 }
 
-.social-link {
+.team__social-link,
+.footer__social-link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -559,8 +563,8 @@ header {
   transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
 }
 
-.social-link:hover,
-.social-link:focus {
+.team__social-link:hover,
+.team__social-link:focus {
   cursor: pointer;
   background-color: var(--accent-color);
   fill: var(--primary-color-white);
@@ -568,16 +572,16 @@ header {
 
 /* Clients */
 
-.clients-iten + .clients-iten {
+.clients__iten + .clients__iten {
   margin-left: 30px;
 }
 
 
-.clients-list {
+.clients__list {
   display: flex;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -589,8 +593,8 @@ header {
   transition: fill 250ms var(--timing-function);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   cursor: pointer;
   border: 1px solid var(--accent-color);
   border-radius: 4px;
@@ -605,17 +609,17 @@ header {
   padding-bottom: 60px;
 }
 
-.footer .logo {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
   
 }
 
-.footer .web {
+.footer__web {
   color: var(--primary-color-white);
 }
 
-.footer .address p {
+.footer__street {
   font-style: normal;
   color: var(--primary-color-white);
   line-height: 1.71;
@@ -623,7 +627,8 @@ header {
   margin-bottom: 9px;
 }
 
- .address a {
+ .footer__mailme,
+ .footer__tel {
   font-style: normal;
   color: var(--footer-contact-color);
   line-height: 1.71;
@@ -631,7 +636,7 @@ header {
   margin-top: 0;
   
 }
-.footer .mailme{
+.footer__mailme {
 margin-bottom: 9px;
 display: inline-block;
 }
@@ -640,7 +645,7 @@ display: inline-block;
   display: flex;
 }
 
-.footer .second-title {
+.footer__second-title {
   font-style: normal;
   color: var(--primary-color-white);
   font-size: 14px;
@@ -650,15 +655,15 @@ display: inline-block;
   margin-bottom: 20px;
 }
 
-.footer-contact {
+.footer__contact {
   margin-right: 70px;
 }
 
-.footer-social {
+.footer__social {
   margin-right: 93px;
 }
 
-.footer-social .social-link {
+.footer__social .footer__social-link {
   fill: var(--primary-color-white);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -666,8 +671,8 @@ display: inline-block;
   transition: background-color 250ms var(--timing-function);
 }
 
-.footer-social .social-link:hover,
-.footer-social .social-link:focus {
+.footer__social .footer__social-link:hover,
+.footer__social .footer__social-link:focus {
   cursor: pointer;
   background-color: var(--accent-color);
 }
@@ -703,7 +708,7 @@ display: inline-block;
   padding-left: 28px;
 }
 
-.subscribe-email {
+.subscribe__email {
   width: 24px;
   height: 24px;
   margin-left: 10px;
