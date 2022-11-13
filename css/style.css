@@ -467,20 +467,20 @@ header {
   margin-bottom: 50px;
 }
 
-.about-list {
+.about__list {
   display: flex;
   justify-content: center;
 }
 
-.about-item:not(:last-child) {
+.about__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.about-list li {
+.about__item {
   position: relative;
 }
 
-.label {
+.about__label {
   display: flex;
   align-items: center;
   justify-content: center;
