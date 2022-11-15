@@ -782,7 +782,7 @@ display: inline-block;
   margin-bottom: 50px;
 }
 
-.project-filter .button {
+.project-filter__button {
   border-color: transparent;
 }
 
@@ -801,7 +801,7 @@ display: inline-block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-group .description {
+.project-group__description {
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
@@ -826,7 +826,7 @@ display: inline-block;
   margin-right: 0;
 }
 
-.project-group .image {
+.project-group__image {
   display: block;
 }
 
@@ -840,7 +840,7 @@ display: inline-block;
   margin-bottom: 4px;
 }
 
-.project .project-group p {
+.portfolio-overlay__info {
   font-size: 16px;
   line-height: 1.87;
   margin-top: 0;
@@ -864,13 +864,13 @@ display: inline-block;
 }
 
 .project-group__item:hover .portfolio-overlay::before,
-.project-group__item:hover .portfolio-overlay-text p {
+.project-group__item:hover .portfolio-overlay__info {
   cursor: pointer;
   opacity: 1;
   transform: translateY(0%);
 }
 
-.portfolio-overlay .portfolio-overlay-text p {
+.portfolio-overlay .portfolio-overlay__info {
   position: absolute;
   top: 0;
   right: 0;
