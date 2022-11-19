@@ -164,9 +164,7 @@ html {
   text-decoration: none;
   transition: color 250ms var(--timing-function);
 }
-
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
 
