@@ -1,17 +1,22 @@
 // utils styles
 
 @import "./utils/variables"; 
-@import "./utils/normalize";
+// @import "./utils/normalize";
 @import "./utils/hidden";
+@import "./utils/placeholder";
 
 // base styles
-
+@import "./base/base";
+@import "./base/reset";     
 
 
 
 
 
 // components styles
+@import "./components/container";
+@import "./components/section";
+@import "./components/buttons"
 
 
 
