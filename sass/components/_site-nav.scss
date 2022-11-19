@@ -7,19 +7,15 @@
 .main-nav {
   align-items: center;
 }
- 
-
-.site-nav__item a {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .site-nav__item + .site-nav__item {
   margin-left: 50px;
 }
 
 .site-nav__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   position: relative;
   color: var(--title-text-color);
   font-weight: 500;
@@ -32,15 +28,13 @@
   &:focus {
   color: var(--accent-color);
 }
+  &.current {
+    color: var(--accent-color);
+  }
+
 }
 
-
-
-.site-nav__link.current {
-  color: var(--accent-color);
-}
-
-.site-nav__item .current::after {
+.current::after {
   content: "";
   position: absolute;
   display: block;

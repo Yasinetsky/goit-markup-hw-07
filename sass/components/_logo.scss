@@ -1,5 +1,8 @@
-.logo,
-.footer__logo {
+.logo {
+  margin-right: 93px;
+  margin-top: auto;
+  margin-bottom: auto;
+
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -8,12 +11,6 @@
   text-decoration: none;
 }
 
-.logo {
-  margin-right: 93px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.web {
+.logo--black {
   color: var(--color-black);
 }
