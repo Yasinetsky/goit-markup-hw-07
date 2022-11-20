@@ -64,10 +64,30 @@
     
     transition: background-color 250ms var(--timing-function);
   }
+
+  .footer__social-item+.footer__social-item {
+      margin-left: 10px;
+  }
   
   .footer__social-link:hover,
   .footer__social-link:focus {
     cursor: pointer;
     background-color: var(--accent-color);
   }
+
+  .footer__social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: var(--icon-border-color);
+    transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: center;
+}
   
