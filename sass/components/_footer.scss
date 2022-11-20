@@ -69,11 +69,7 @@
       margin-left: 10px;
   }
   
-  .footer__social-link:hover,
-  .footer__social-link:focus {
-    cursor: pointer;
-    background-color: var(--accent-color);
-  }
+
 
   .footer__social-link {
     display: flex;
@@ -84,6 +80,12 @@
     align-items: center;
     fill: var(--icon-border-color);
     transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background-color: var(--accent-color);
+  }
 }
 
 .footer__social-list {

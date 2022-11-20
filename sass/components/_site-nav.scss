@@ -17,11 +17,14 @@
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-  color: var(--title-text-color);
+
+  
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  color: var(--title-text-color);
   transition: color 250ms var(--timing-function);
 
   &:hover,
@@ -42,6 +45,7 @@
   height: 4px;
   left: 0;
   bottom: 0;
+  
   background-color: var(--accent-color);
   border-radius: 2px;
 }
