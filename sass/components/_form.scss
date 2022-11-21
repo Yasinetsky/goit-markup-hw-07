@@ -154,22 +154,20 @@
 }
 
 .form__custom-chek {
-    display: flex;
+    @include centeredFlex;
     width: 16px;
     height: 15px;
     margin-right: 8px;
     border: 2px solid #212121;
     border-radius: 3px;
-    align-items: center;
-    justify-content: center;
     transition: background-color 250ms var(--timing-function), border 250ms var(--timing-function);
 }
-
 
 .form__checkbox:checked+.form__custom-chek {
     background-color: var(--accent-color);
     border: 2px solid var(--accent-color);
 }
+
 
 .buton.submit {
     width: 200px;

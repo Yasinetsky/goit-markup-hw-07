@@ -27,11 +27,9 @@
 }
 
 .features__icon {
-    display: flex;
+    @include centeredFlex;
     margin-bottom: 30px;
     height: 120px;
-    align-items: center;
-    justify-content: center;
     background-color: var(--second-bg-color);
     border-radius: 4px;
 }

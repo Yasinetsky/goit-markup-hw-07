@@ -82,8 +82,7 @@ html {
   padding-bottom: 94px;
 }
 
-.button,
-.project-filter__button {
+.button {
   margin: 0 auto;
   display: block;
   border-radius: 4px;
@@ -99,8 +98,7 @@ html {
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
-.button.primary,
-.project-filter__button.primary {
+.button.primary {
   color: var(--title-text-color);
   background-color: var(--second-bg-color);
 }
@@ -112,8 +110,8 @@ html {
 
 .button__subscribe {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -163,11 +161,11 @@ html {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-  color: var(--title-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--title-text-color);
   transition: color 250ms var(--timing-function);
 }
 .site-nav__link:hover, .site-nav__link:focus {
@@ -291,12 +289,6 @@ html {
   margin-left: 10px;
 }
 
-.footer__social-link:hover,
-.footer__social-link:focus {
-  cursor: pointer;
-  background-color: var(--accent-color);
-}
-
 .footer__social-link {
   display: flex;
   width: 44px;
@@ -306,6 +298,10 @@ html {
   align-items: center;
   fill: var(--icon-border-color);
   transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+}
+.footer__social-link:hover, .footer__social-link:focus {
+  cursor: pointer;
+  background-color: var(--accent-color);
 }
 
 .footer__social-list {
@@ -501,13 +497,13 @@ html {
 
 .form__custom-chek {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 15px;
   margin-right: 8px;
   border: 2px solid #212121;
   border-radius: 3px;
-  align-items: center;
-  justify-content: center;
   transition: background-color 250ms var(--timing-function), border 250ms var(--timing-function);
 }
 
@@ -567,10 +563,10 @@ html {
 
 .features__icon {
   display: flex;
-  margin-bottom: 30px;
-  height: 120px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
+  height: 120px;
   background-color: var(--second-bg-color);
   border-radius: 4px;
 }
@@ -668,11 +664,11 @@ html {
 
 .team__social-link {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   fill: var(--icon-border-color);
   transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
 }
@@ -692,10 +688,10 @@ html {
 
 .clients__link {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
-  justify-content: center;
-  align-items: center;
   border: 1px solid var(--icon-border-color);
   border-radius: 4px;
   fill: var(--icon-border-color);
@@ -755,6 +751,27 @@ html {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
+
+.project-filter__button.primary {
+  color: var(--title-text-color);
+  background-color: var(--second-bg-color);
+}
+
+.project-filter__button {
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  border: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--primary-color-white);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
 .project-group {

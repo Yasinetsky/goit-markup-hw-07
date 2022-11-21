@@ -22,9 +22,7 @@
 }
 
 .about__label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredFlex;
     bottom: 0px;
     margin: 0%;
     width: 100%;

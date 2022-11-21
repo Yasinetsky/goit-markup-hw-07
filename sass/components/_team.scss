@@ -51,12 +51,10 @@
 }
 
 .team__social-link {
-    display: flex;
+    @include centeredFlex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
     fill: var(--icon-border-color);
     transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
 

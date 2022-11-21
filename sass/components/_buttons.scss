@@ -30,9 +30,7 @@
 
 
 .button__subscribe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
