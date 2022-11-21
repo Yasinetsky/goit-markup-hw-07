@@ -1,4 +1,5 @@
 .contacts-nav {
+    @extend %list;
     display: flex;
     margin-left: auto;
   }

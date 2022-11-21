@@ -4,6 +4,9 @@
   display: flex;
 }
 
+.site-nav {
+  @extend %list;
+}
 .main-nav {
   align-items: center;
 }

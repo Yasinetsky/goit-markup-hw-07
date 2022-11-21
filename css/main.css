@@ -26,6 +26,12 @@
   overflow: hidden;
 }
 
+.features__list, .contacts-nav, .site-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0px;
   color: var(--primery-text-color);
