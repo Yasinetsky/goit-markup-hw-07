@@ -69,8 +69,6 @@
       margin-left: 10px;
   }
   
-
-
   .footer__social-link {
     display: flex;
     width: 44px;
@@ -81,11 +79,11 @@
     fill: var(--icon-border-color);
     transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
 
-  &:hover,
-  &:focus {
-    cursor: pointer;
-    background-color: var(--accent-color);
-  }
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: var(--accent-color);
+  } 
 }
 
 .footer__social-list {
