@@ -3,6 +3,7 @@
 }
 
 .team__list {
+    @extend %list;
     display: flex;
     justify-content: space-between;
 }
@@ -42,6 +43,7 @@
 }
 
 .team__social-list {
+    @extend %list;
     display: flex;
     justify-content: center;
 }

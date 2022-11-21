@@ -87,6 +87,7 @@
 }
 
 .footer__social-list {
+  @extend %list;
   display: flex;
   justify-content: center;
 }

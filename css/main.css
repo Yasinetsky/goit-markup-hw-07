@@ -26,7 +26,7 @@
   overflow: hidden;
 }
 
-.features__list, .contacts-nav, .site-nav {
+.clients__list, .team__social-list, .team__list, .about__list, .features__list, .footer__social-list, .contacts-nav, .site-nav {
   list-style: none;
   padding: 0;
   margin: 0;
