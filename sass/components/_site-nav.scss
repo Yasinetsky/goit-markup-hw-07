@@ -34,13 +34,14 @@
   &:focus {
   color: var(--accent-color);
 }
-  &.current {
-    color: var(--accent-color);
-  }
-
+  
 }
 
-.current::after {
+.site-nav__link--current {
+  color: var(--accent-color);
+}
+
+.site-nav__link--current::after {
   content: "";
   position: absolute;
   display: block;

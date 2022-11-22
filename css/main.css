@@ -177,11 +177,12 @@ html {
 .site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
-.site-nav__link.current {
+
+.site-nav__link--current {
   color: var(--accent-color);
 }
 
-.current::after {
+.site-nav__link--current::after {
   content: "";
   position: absolute;
   display: block;
@@ -346,7 +347,7 @@ html {
   margin-bottom: 30px;
 }
 
-.order .button {
+.order__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
